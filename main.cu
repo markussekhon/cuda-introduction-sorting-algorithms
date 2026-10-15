@@ -15,7 +15,7 @@ int main() {
 
   // const std::vector<std::size_t> numbers{4, 5, 7, 8};
 
-  const std::vector<std::size_t> numbers{8, 10, 16384, 262144};
+  const std::vector<std::size_t> numbers{1024, 2056, 16384, 262144, 1048576};
 
   for (std::size_t n : numbers) {
     std::size_t const switch_at = 3 * (n >> 2);
